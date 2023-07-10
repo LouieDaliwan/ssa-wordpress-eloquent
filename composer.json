@@ -1,0 +1,19 @@
+{
+    "name": "ldaliwan/ssa-wordpress-eloquent",
+    "description": "Create simple custom eloquent model",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ldaliwan\\SsaWordpressEloquent\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "LouieDaliwan",
+            "email": "louie@ssagroup.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
