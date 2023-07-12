@@ -6,7 +6,7 @@ composer require ldaliwan/ssa-wordpress-eloquent
 
 
 ## Description
-* This is all about integrate the model that can easily get the CRUD method which 
+* This is all about extending the model abstract class that can easily get the CRUD method and
 avoiding the redudant on calling the wordpress insert update and delete methods.
 
 
