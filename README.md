@@ -12,7 +12,9 @@ avoiding the redudant on calling the wordpress insert update and delete methods.
 
 ## How to use
 
-<?php
+```php
+
+ <?php
 
 //in model
 namespace App;
