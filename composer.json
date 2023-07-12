@@ -33,6 +33,6 @@
             "email": "louie@ssagroup.com"
         }
     ],
-    "minimum-stability": "dev",
-    "prefer-stable": false   
+    "minimum-stability": "stable",
+    "prefer-stable": true  
 }
