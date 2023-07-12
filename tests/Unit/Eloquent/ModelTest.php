@@ -2,7 +2,7 @@
 
 namespace Test\Unit\Eloquent;
 use PHPUnit\Framework\TestCase;
-use Ldaliwan\SsaWordpressEloquent\Eloquent\Model;
+use Ldaliwan\SsaWordpressEloquent\Illuminate\Eloquent\Model;
 
 final class ModelTest extends TestCase
 {
@@ -22,5 +22,11 @@ final class ModelTest extends TestCase
     function model_class_have_delete_method(): void
     {
         $this->assertTrue(method_exists(Model::class, 'delete'));
+    }
+
+    /** @test */
+    function model_class_have_property_table(): void
+    {
+        $this->assertTrue(property_exists(Model::class, 'table'));
     }
 }
